@@ -1,0 +1,19 @@
+</$objtype/mkfile
+
+BIN=.
+TARG=\
+	complex\
+	split\
+	dual\
+	spiral\
+
+OFILES=
+
+LIB=\
+	../libcomplex.a$O
+
+</sys/src/cmd/mkmany
+
+../libcomplex.a$O:
+	cd ..
+	mk install
